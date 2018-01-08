@@ -15,16 +15,20 @@ gcc-arm-none-eabi-7-2017-q4-major-linux.tar.bz2
 version might change.
 
 cp the tar file to /opt
+
 tar xjf gcc-arm-none-eabi-7-2017-q4-major-linux.tar.bz2
+
 ls to list all of the directories in /opt
+
 There should be a directory: gcc-arm-none-eabi-7-2017-q4-major
+
 Rename this using the mv command
+
 mv gcc-arm-none-eabi-7-2017-q4-major gcc-arm-none-eabi
 
 Now there should be a dir:gcc-arm-none-eabi
 
-In opt create a directory called repos
-mkdir repos
+In opt create a directory called repos:mkdir repos
 
 Install mbed os commandline tool:
 pip install mbed-cli
