@@ -5,13 +5,16 @@ Open a terminal in ubuntu: there is always a terminal program include but there 
 that you can install: konsole or Terminator
 
 sudo apt-get install python-pip python-dev build-essential git
+
 sudo pip install --upgrade pip 
+
 sudo pip install --upgrade virtualenv 
 
 
-Download embedded Gcc compiler
-https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads
+Download embedded Gcc compiler:https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads
+
 gcc-arm-none-eabi-7-2017-q4-major-linux.tar.bz2
+
 version might change.
 
 cp the tar file to /opt
